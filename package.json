@@ -1,0 +1,27 @@
+{
+  "name": "nextauth",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "jwt-decode": "^3.1.2",
+    "next": "^12.1.6",
+    "nookies": "^2.5.2",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "sass": "^1.52.3"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.41",
+    "@types/react": "^18.0.12",
+    "@types/react-dom": "^18.0.0",
+    "@vitejs/plugin-react": "^1.3.0",
+    "typescript": "^4.6.3",
+    "vite": "^2.9.9"
+  }
+}
